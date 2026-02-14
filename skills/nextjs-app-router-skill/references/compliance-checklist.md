@@ -44,7 +44,10 @@ Use this checklist for every implementation and review.
 
 - [ ] i18n uses `next-intl`.
 - [ ] Locale messages are implemented in TypeScript.
-- [ ] Locale detection is implemented in middleware.
+- [ ] Locale detection is implemented in middleware + cookie.
+- [ ] Default routing does not use locale path (`/[locale]/...` is absent).
+- [ ] Locale path is used only when explicit SEO requirements exist.
+- [ ] Admin/backoffice/dashboard routes never use locale path and rely on cookie-only locale state.
 - [ ] Only required locale resources are loaded.
 
 ## G. UI/Design System

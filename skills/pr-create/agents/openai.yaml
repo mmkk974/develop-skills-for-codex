@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR作成フロー"
+  short_description: "main直push禁止でcommit・push・PR作成まで進める"
+  default_prompt: "Use $pr-create to run branch-safe commit, push, and PR creation with PII checks and PR template handling."

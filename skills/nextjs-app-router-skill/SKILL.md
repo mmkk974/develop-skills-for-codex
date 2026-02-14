@@ -50,7 +50,10 @@ description: Next.js App Router の設計・実装ルールを強制するスキ
 - `next-intl` を使う。
 - ロケールメッセージは TypeScript で管理する。
 - ロケールコードを標準化して扱う。
-- `middleware` でロケール判定する。
+- ロケール判定は `middleware` と `cookie` を使う。
+- デフォルトは locale パスを使わない（cookie のみで管理する）。
+- locale パス（`/[locale]/...` や `localePrefix`）は SEO 要件が明示された場合のみ許可する。
+- 管理画面（admin/backoffice/dashboard）は locale パスを禁止し、常に cookie 管理のみとする。
 - 必要なロケールバンドルのみを読み込む。
 
 ## 7. UIとスタイル規約
