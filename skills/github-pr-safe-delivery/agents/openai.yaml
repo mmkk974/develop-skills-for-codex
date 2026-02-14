@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR安全デリバリー"
+  short_description: "ブランチ運用とPII確認付きでPR作成まで進める"
+  default_prompt: "Use $github-pr-safe-delivery to create a safe branch-based commit/push flow and open a PR without pushing to main."

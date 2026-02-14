@@ -13,7 +13,8 @@ description: GitHub PR の review comments を取得し、修正すべき指摘�
 2. `references/triage-rules.md` で各コメントを `must-fix / should-fix / won't-fix` に分類する。
 3. `must-fix` を優先して修正する。
 4. `should-fix` は影響と工数を見て修正可否を決める。
-5. `references/output-template.md` 形式で、判定根拠と実施内容を報告する。
+5. コメントごとに返信を返す（修正済みは `fixed`、不要は英語理由）。
+6. `references/output-template.md` 形式で、判定根拠と実施内容を報告する。
 
 ## 2. コメント取得ルール
 
@@ -46,9 +47,16 @@ description: GitHub PR の review comments を取得し、修正すべき指摘�
 - 変更後は関連テスト/検証を実施し、結果を記録する。
 - `won't-fix` は却下理由を1行で明示する。
 
-## 5. 出力要件
+## 5. コメント返信ルール
 
-- コメント一覧（ID, 区分, 要約, 根拠, 対応方針）
+- 修正したコメントには返信文を厳密に `fixed` とする。
+- 不要と判断したコメントには英語で理由を返信する。
+- 不要返信は `No change needed because <reason>.` 形式を使う。
+- 仕様確認待ちの場合は英語で `Need clarification on <point> before applying changes.` を使う。
+
+## 6. 出力要件
+
+- コメント一覧（ID, 区分, 要約, 根拠, 対応方針, 返信文）
 - 実施した修正（ファイル, 変更概要, 対応コメントID）
 - 未対応コメントと理由
 - 追加確認が必要な論点

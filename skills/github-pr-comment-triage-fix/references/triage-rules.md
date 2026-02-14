@@ -33,3 +33,11 @@
 - 期待動作がレビュア間で不一致
 
 上記は「追加確認」に分類し、質問を先に返す。
+
+## 5. コメント返信テンプレート
+
+- 修正完了: `fixed`
+- 不要: `No change needed because <reason>.`
+- 追加確認: `Need clarification on <point> before applying changes.`
+
+`won't-fix` と `追加確認` の返信は必ず英語にする。
