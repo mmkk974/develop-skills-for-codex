@@ -1,0 +1,4 @@
+interface:
+  display_name: "仕様駆動開発フロー"
+  short_description: "spec→plan→task→imple を順守して妥当性を判定する"
+  default_prompt: "仕様駆動開発として、spec→plan→task→imple の順で成果物を作成・更新し、各フェーズで妥当性判定を実施して報告する。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailwind 導入・運用"
+  short_description: "Tailwind CSS を導入し、運用ルールまで整える"
+  default_prompt: "このプロジェクトに Tailwind CSS を導入し、運用ガイドラインと妥当性チェック結果を含めて報告する。"

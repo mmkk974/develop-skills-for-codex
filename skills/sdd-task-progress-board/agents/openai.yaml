@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDDタスク進捗ボード"
+  short_description: "task一覧・進捗率・next taskを同時に返す"
+  default_prompt: "Use $sdd-task-progress-board to evaluate spec/plan prerequisites, then return the SDD task list with progress and next task."

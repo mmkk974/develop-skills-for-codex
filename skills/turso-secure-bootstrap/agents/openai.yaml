@@ -1,0 +1,4 @@
+interface:
+  display_name: "Turso Secure Bootstrap"
+  short_description: "Turso secure provisioning with token hygiene"
+  default_prompt: "Use $turso-secure-bootstrap to provision Turso with strict token handling, env separation, and leak-prevention checks."

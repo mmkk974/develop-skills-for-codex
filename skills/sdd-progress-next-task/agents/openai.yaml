@@ -1,0 +1,4 @@
+interface:
+  display_name: "SDD進捗確認"
+  short_description: "仕様駆動開発の現在地を判定し次タスクを返す"
+  default_prompt: "spec→plan→task→imple の成果物を確認し、現在フェーズ、ゲート判定、最優先の次タスクを返す。"

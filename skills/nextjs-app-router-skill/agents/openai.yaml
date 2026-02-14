@@ -1,0 +1,4 @@
+interface:
+  display_name: "Next.js App Router Guardrails"
+  short_description: "Enforce strict Next.js App Router architecture rules"
+  default_prompt: "Implement or review this Next.js codebase under the skill rules, then report any violations with file/line references and minimal fixes."

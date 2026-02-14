@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Hook Form 導入・利用"
+  short_description: "React Hook Form と Zod の実装を標準化する"
+  default_prompt: "このプロジェクトで React Hook Form を導入または改善し、採用した実装パターンと妥当性チェック結果を報告する。"

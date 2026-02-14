@@ -1,0 +1,4 @@
+interface:
+  display_name: "Turso Prisma Secure Schema"
+  short_description: "Prisma schema and migration safety for Turso"
+  default_prompt: "Use $turso-prisma-secure-schema to define Prisma schema and migrations for Turso with strict token separation and production-safe controls."

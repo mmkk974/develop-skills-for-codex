@@ -1,0 +1,4 @@
+interface:
+  display_name: "shadcn 導入"
+  short_description: "shadcn/ui を安全に導入して運用ルールを整える"
+  default_prompt: "このプロジェクトに shadcn/ui を導入し、追加したコンポーネントと妥当性チェック結果を報告する。"

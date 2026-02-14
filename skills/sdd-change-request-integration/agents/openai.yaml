@@ -1,0 +1,4 @@
+interface:
+  display_name: "追加仕様統合"
+  short_description: "追加仕様をSDDへ差分同期して次タスクを決める"
+  default_prompt: "追加仕様（変更要求）を受け付け、影響分析して spec/plan/task/imple に差分反映し、再判定結果と最優先タスクを返す。"
