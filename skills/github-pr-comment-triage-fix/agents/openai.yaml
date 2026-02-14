@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRコメント判定と修正"
+  short_description: "PRコメントの修正要否を判定し必要な修正を行う"
+  default_prompt: "Use $github-pr-comment-triage-fix to fetch PR comments, triage fix priority, and apply required code fixes."
