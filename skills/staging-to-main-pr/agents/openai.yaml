@@ -1,0 +1,4 @@
+interface:
+  display_name: "staging→main PR"
+  short_description: "stagingからmainへの統合PRを安全に作成する"
+  default_prompt: "Use $staging-to-main-pr to create or reuse the release integration PR from staging to main, with duplicate-PR checks and no direct merge to main."

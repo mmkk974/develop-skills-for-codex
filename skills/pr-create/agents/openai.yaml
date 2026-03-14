@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR作成フロー"
+  short_description: "staging向けPRを安全に作成する"
+  default_prompt: "Use $pr-create to run branch-safe commit, push, and PR creation to staging with PII checks and template handling."
