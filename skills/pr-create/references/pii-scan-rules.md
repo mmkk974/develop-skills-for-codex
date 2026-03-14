@@ -15,9 +15,9 @@
 ## 3. 実行例
 
 ```bash
-git ls-files | xargs rg -n -S "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
-git ls-files | xargs rg -n -S "(/Users/[^/\\s]+|C:\\\\Users\\\\[^\\\\s]+)"
-git ls-files | xargs rg -n -S "(API_KEY|SECRET|PASSWORD|PRIVATE KEY|BEGIN RSA|BEGIN OPENSSH|ghp_[A-Za-z0-9]{36})"
+git ls-files | xargs rg -n -i -S "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+git ls-files | xargs rg -n -i -S "(/Users/[^/\\s]+|C:\\\\Users\\\\[^\\\\s]+)"
+git ls-files | xargs rg -n -i -S "(API_KEY|SECRET|PASSWORD|PRIVATE KEY|BEGIN RSA|BEGIN OPENSSH|ghp_[A-Za-z0-9]{36})"
 ```
 
 ## 4. 判定
